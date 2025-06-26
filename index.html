@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Música Inteligente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="player">
+        <h1>BIT MUSICA</h1>
+        <div class="cover-art">
+<img id="cover" src="https://via.placeholder.com/30" alt="portada de album">
+        </div>
+        <div class="song-info">
+            <h2 id="song-title">Canción</h2>
+            <p id="artist">Artista</p>
+        </div>
+        <audio id="audio-player"></audio>
+        <div class="controls">
+            <button id="prev-btn">⏮</button>
+            <button id="play-btn">▶</button>
+            <button id="next-btn">⏭</button>
+        </div>
+        <div class="progress-container">
+            <progress id="progress-bar" value="0" max="100"></progress>
+            <span id="current-time">0:00</span> / <span id="duration">0:00</span>
+        </div>
+        <div class="playlist">
+            <h3>Lista de reproducción</h3>
+            <ul id="song-list"></ul>
+        </div>
+        <div class="intelligent-features">
+            <button id="mood-btn">Recomendaciones por estado de ánimo</button>
+            <button id="genre-btn">Recomendaciones por género</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url(https://imageio.forbes.com/specials-images/imageserve/61d52d4e3a76ed81ac034ea8/The-10-Tech-Trends-That-Will-Transform-Our-World/960x0.jpg?height=399&width=711&fit=bounds);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.player {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1,h3,h2{
+    color: white;
+}
+ul{
+    color: white;
+}
+span{
+    color: #eee;
+}
+.cover-art img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.song-info h2 {
+    margin: 0;
+    color: #333;
+}
+
+.song-info p {
+    margin: 5px 0 15px;
+    color: #666;
+}
+
+.controls button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.controls button:hover {
+    color: #1db954;
+}
+
+.progress-container {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+progress {
+    width: 70%;
+    height: 6px;
+   margin: 0 10px;
+ 
+}
+
+.playlist {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.playlist ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.playlist li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+
+}
+
+.playlist li:hover {
+    background-color: #f9f9f9;
+    color: #666;
+}
+
+.intelligent-features {
+    margin-top: 20px;
+}
+
+.intelligent-features button {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.intelligent-features button:hover {
+    background-color: #1ed760;
+}
