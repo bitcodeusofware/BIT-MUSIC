@@ -12,7 +12,7 @@ const songs = [
     {
         title: "Travis Scott",
         artist: "Artista 2",
-        src: "Travis Scott - MY EYES (Official Audio) - TravisScottVEVO.mp3",
+        src: "Travis Scott.mp3",
         cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpVgByNdbDntccUbO5tWmaVCCGVm_EPlCx8w&s",
         mood: "triste",
         genre: "rock"
